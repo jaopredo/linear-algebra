@@ -27,7 +27,7 @@ def generate_column_vector(lines: int = 2) -> np.ndarray:
     return np.random.randint(-10, 10, (lines, 1))
 
 
-def generate_strictly_diagonal_dominant_matrix(n: int, min_val: int = 1, max_val: int = 10) -> np.ndarray:
+def generate_strictly_diagonal_dominant_matrix(n: int, min_val: int = -10, max_val: int = 10) -> np.ndarray:
     """Generates a squared n x n strictly diagonal dominant
 
     Args:
